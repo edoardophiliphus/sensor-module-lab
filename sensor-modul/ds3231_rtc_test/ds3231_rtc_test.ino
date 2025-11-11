@@ -53,4 +53,5 @@ void loop()
     Serial.print("Waktu: ");
     Serial.println(now.timestamp(DateTime::TIMESTAMP_FULL));
     delay(1000);
+    test;
 }
